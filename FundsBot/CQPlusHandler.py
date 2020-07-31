@@ -47,7 +47,7 @@ class MainHandler(cqplus.CQPlusHandler):
             # else:
             #     self.api.send_private_msg(params['from_qq'],"fuck")
         elif event=='on_timer':
-            url1 = "http://47.106.231.199:8000/fundnetadater/GetContent?ID=123"
+            url1 = "http://xx.xx.xx.xx:8000/fundnetadater/GetContent?ID=123"
             data1 = ""
             try:
                 r = requests.get(url1, timeout=10)
